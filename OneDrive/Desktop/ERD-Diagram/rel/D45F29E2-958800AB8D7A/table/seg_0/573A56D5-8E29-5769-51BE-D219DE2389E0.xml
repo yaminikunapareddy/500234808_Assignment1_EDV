@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="573A56D5-8E29-5769-51BE-D219DE2389E0" schemaObject="BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1" name="INSTRUCTORS">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>INSTRUCTORS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:25 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSTRUCTORID" id="CD0008BF-B25F-A497-1303-8491F6A435BA">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>INSTRUCTORS</sourceObjSchema>
+<sourceObjName>INSTRUCTORID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="DC690727-13C6-E980-693C-30B78CF53708">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>INSTRUCTORS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTID" id="69FED8DF-78A7-1476-665F-75D14DDED0B9">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>INSTRUCTORS</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27E1AE9C-1C4E-3516-8BFB-F6236E736217" schemaObject="BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1" name="INSTRUCTORS_PK">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007497</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD0008BF-B25F-A497-1303-8491F6A435BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

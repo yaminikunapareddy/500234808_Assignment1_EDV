@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="INSTRUCTORS" directorySegmentName="seg_0" id="573A56D5-8E29-5769-51BE-D219DE2389E0">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<schemaObject>BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2D020C02-2F5C-F385-D022-EA3C4B0CE007</segment>
+<tableSpace>639E520E-5A8F-B185-8F2D-9ADA189CCA83</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENTID" id="69FED8DF-78A7-1476-665F-75D14DDED0B9">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSTRUCTORID" id="CD0008BF-B25F-A497-1303-8491F6A435BA">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="DC690727-13C6-E980-693C-30B78CF53708">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INSTRUCTORS_PK" id="27E1AE9C-1C4E-3516-8BFB-F6236E736217">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:50:26 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<schemaObject>BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1</schemaObject>
+<segment>C9555E34-CB01-70BC-5290-70ECCEA561B9</segment>
+<tableSpace>639E520E-5A8F-B185-8F2D-9ADA189CCA83</tableSpace>
+<indexSegment>C9555E34-CB01-70BC-5290-70ECCEA561B9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

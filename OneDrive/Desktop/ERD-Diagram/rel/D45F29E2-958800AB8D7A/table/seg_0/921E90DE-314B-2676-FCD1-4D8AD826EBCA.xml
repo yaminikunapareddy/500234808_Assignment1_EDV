@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="921E90DE-314B-2676-FCD1-4D8AD826EBCA" schemaObject="BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1" name="COURSEINSTRUCTORS">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>COURSEINSTRUCTORS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:34 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COURSEID" id="3663D6DA-84EE-8AD0-B43B-5179667AD03F">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>COURSEINSTRUCTORS</sourceObjSchema>
+<sourceObjName>COURSEID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:35 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AB610A2-60C9-708E-2BFE-27F5606978F0" referredColumn="76D9C250-6AE1-9A1F-473C-5466CBDF33AE"/>
+</associations>
+</Column>
+<Column name="INSTRUCTORID" id="0726DB5B-364B-C614-0779-1D4EA2CD2D5E">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>COURSEINSTRUCTORS</sourceObjSchema>
+<sourceObjName>INSTRUCTORID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:35 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5790892-EC37-429B-F209-8EB9661DFEF0" referredColumn="CD0008BF-B25F-A497-1303-8491F6A435BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F37B0A0-F944-9837-9CD5-178BBA199EE3" schemaObject="BFB3F1DB-B0D4-F403-9746-EF2F6ED072D1" name="COURSEINSTRUCTORS_PK">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007500</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:37 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3663D6DA-84EE-8AD0-B43B-5179667AD03F"/>
+<colUsage columnID="0726DB5B-364B-C614-0779-1D4EA2CD2D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E87FBE8B-7CFB-2EE8-9DB9-7A5DFB76EACC" name="SYS_C007501">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:37 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3663D6DA-84EE-8AD0-B43B-5179667AD03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DE3559D-8D0B-7E18-5480-9877E2DB0576" name="SYS_C007502">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-24 17:47:37 UTC</createdTime>
+<ownerDesignName>ERD-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0726DB5B-364B-C614-0779-1D4EA2CD2D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
