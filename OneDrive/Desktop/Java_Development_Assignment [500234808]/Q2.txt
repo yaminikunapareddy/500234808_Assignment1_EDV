@@ -1,0 +1,55 @@
+Q.2 - Implementing a Stack as an Array
+Implement a stack data structure using an array. Write a program to check whether the number of open parentheses is equal to the number of closed ones in an input string.
+
+package Q1;
+import java.util.Scanner;
+
+public class stack {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to input the string
+        System.out.print("Enter the input string: ");
+        String input = scanner.nextLine();
+
+        // Check if the input string has balanced parentheses
+        if (isBalanced(input)) {
+            System.out.println("Correct input");
+        } else {
+            System.out.println("Incorrect input");
+        }
+
+        scanner.close();
+    }
+
+    // Function to check if the input string has balanced parentheses
+    private static boolean isBalanced(String input) {
+        // Initialize a stack to keep track of open parentheses
+        char[] stack = new char[input.length()];
+        int top = -1; // Index to the top of the stack
+
+        // Iterate through each character in the input string
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+            if (ch == '(') {
+                // Push open parenthesis onto the stack
+                stack[++top] = ch;
+            } else if (ch == ')') {
+                // If a close parenthesis is encountered
+                // Check if the stack is empty
+                if (top == -1 || stack[top] != '(') {
+                    // If stack is empty or top of stack is not an open parenthesis,
+                    // then input has unbalanced parentheses
+                    return false;
+                } else {
+                    // Pop the open parenthesis from the stack
+                    top--;
+                }
+            }
+        }
+
+        // If stack is empty, input has balanced parentheses
+        return top == -1;
+    }
+}
+
