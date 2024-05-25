@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="17659C5A-2747-FBFD-5EBB-C0993E640822" mainViewID="A2F7901B-F132-C803-68F4-47F586AC307B">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:02:20 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>LOYALIST_UNIVERSITY</connName>
+<connUser>sys</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

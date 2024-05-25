@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3409D0A-9975-FBA5-7C79-75A1029A7530" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="STUDENTS">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>STUDENTS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENTID" id="F789CF01-E42C-1DAF-D451-F71C4BD81BD6">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>STUDENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9466F298-CECF-0AB8-F043-8A4AB0BBFF4C">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="38CB5AA6-FB13-4C58-C5F4-4F2D5B76D07B">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="E514300E-BFF2-9958-17BF-47A1C2A1014E">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3308D7B5-14FA-804D-F913-AF0F271EC583">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTID" id="7A911065-6B85-BEFC-1B7B-857A4862F191">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>STUDENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE05624F-77DD-B203-B307-29BEBA0C789D" referredColumn="49EEF7E8-3FF6-0863-EDA0-6FC143E9A3BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E05629-B388-4713-FCFB-4C6EC7C6B3D8" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="STUDENTS_PK">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007534</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F789CF01-E42C-1DAF-D451-F71C4BD81BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="833A1A3D-89FF-A89F-BF4D-A2016D07A008" name="SYS_C007535">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A911065-6B85-BEFC-1B7B-857A4862F191"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1537293-1B81-755F-2EB1-458759E807DE" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="DEPARTMENTS">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENTID" id="49EEF7E8-3FF6-0863-EDA0-6FC143E9A3BA">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9D70125E-567D-F7A2-8CF2-5E36736BB701">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEADOFDEPARTMENT" id="5DC713BE-3C15-08BF-4841-AD8B29C9A45E">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>HEADOFDEPARTMENT</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BB1DD53-14FD-8082-9AFB-BBCC52CB2B7A" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="DEPARTMENTS_PK">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007533</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49EEF7E8-3FF6-0863-EDA0-6FC143E9A3BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

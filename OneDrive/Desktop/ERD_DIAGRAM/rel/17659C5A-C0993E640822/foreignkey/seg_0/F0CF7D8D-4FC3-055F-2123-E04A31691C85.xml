@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0CF7D8D-4FC3-055F-2123-E04A31691C85" containerWithKeyObject="D98DC312-E4CE-051E-F68B-668E30175AAD" localFKIndex="C17D695B-2D5B-7E9E-9BCD-078AC789AEC3" name="SYS_C007553">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007553</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<referredTableLongName>SYS.COURSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DD8E92B-CF20-218C-25AB-FB178C93FDEA</referredTableID>
+<keyObject>B82B418D-3F62-5AFC-2FE9-E131F2AB667A</keyObject>
+<referredKeyID>B82B418D-3F62-5AFC-2FE9-E131F2AB667A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COURSEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

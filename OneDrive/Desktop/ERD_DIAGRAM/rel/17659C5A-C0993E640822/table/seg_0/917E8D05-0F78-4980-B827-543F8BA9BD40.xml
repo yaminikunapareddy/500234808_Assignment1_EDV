@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="917E8D05-0F78-4980-B827-543F8BA9BD40" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="ENROLMENTS">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>ENROLMENTS</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENROLMENTID" id="11773666-1047-DE89-FE75-166EFFDD0041">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>ENROLMENTS</sourceObjSchema>
+<sourceObjName>ENROLMENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENTID" id="D8213163-D50B-BBC8-70B8-B7B678842210">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>ENROLMENTS</sourceObjSchema>
+<sourceObjName>STUDENTID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A77F9A0D-77A3-52B3-3738-0C1780678A8A" referredColumn="F789CF01-E42C-1DAF-D451-F71C4BD81BD6"/>
+</associations>
+</Column>
+<Column name="COURSEID" id="81793089-AEE0-9CC0-AAD0-F5C137EA91E7">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>ENROLMENTS</sourceObjSchema>
+<sourceObjName>COURSEID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB285E9-F0D1-CF6D-0608-4A526480B368" referredColumn="28296C7D-C037-1D8D-4780-584EA393BC3F"/>
+</associations>
+</Column>
+<Column name="SEMESTERID" id="321FDAD5-7002-B210-2CF2-6973A5B74AED">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>ENROLMENTS</sourceObjSchema>
+<sourceObjName>SEMESTERID</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC6455AF-BBA4-C019-0BEC-8AD06898D683" referredColumn="C226C11D-E817-7C89-8CE3-E60F46629DE0"/>
+</associations>
+</Column>
+<Column name="GRADE" id="8AF0B093-F27E-C50E-6225-E2366B309FA6">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>ENROLMENTS</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD98C622-ACEF-26B1-F35E-0B8167713401" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="ENROLMENTS_PK">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007541</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11773666-1047-DE89-FE75-166EFFDD0041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="427AACF0-7D91-A23A-EEB9-516B69DF38F5" name="UNIQUE_ENROLMENT">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>UNIQUE_ENROLMENT</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8213163-D50B-BBC8-70B8-B7B678842210"/>
+<colUsage columnID="81793089-AEE0-9CC0-AAD0-F5C137EA91E7"/>
+<colUsage columnID="321FDAD5-7002-B210-2CF2-6973A5B74AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ED5D331-DFB8-7658-C4F6-5AFB91A7F5C4" schemaObject="034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF" name="UNIQUE_ENROLMENT">
+<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>UNIQUE_ENROLMENT</sourceObjName>
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:27 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8213163-D50B-BBC8-70B8-B7B678842210"/>
+<colUsage columnID="81793089-AEE0-9CC0-AAD0-F5C137EA91E7"/>
+<colUsage columnID="321FDAD5-7002-B210-2CF2-6973A5B74AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C70ABF-60D9-8CDD-6DE8-6645E777440F" name="SYS_C007543">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8213163-D50B-BBC8-70B8-B7B678842210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37ECAEF4-CBBA-9176-761A-E85A34A31AC8" name="SYS_C007544">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81793089-AEE0-9CC0-AAD0-F5C137EA91E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2189737D-A420-1290-9313-2A5B967E4403" name="SYS_C007545">
+<createdBy>8055y</createdBy>
+<createdTime>2024-05-25 21:21:28 UTC</createdTime>
+<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="321FDAD5-7002-B210-2CF2-6973A5B74AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
