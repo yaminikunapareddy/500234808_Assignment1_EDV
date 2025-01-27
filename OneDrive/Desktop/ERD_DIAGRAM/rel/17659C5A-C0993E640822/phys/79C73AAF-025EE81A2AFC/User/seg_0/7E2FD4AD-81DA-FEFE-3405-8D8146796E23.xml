@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYS" directorySegmentName="seg_0" id="7E2FD4AD-81DA-FEFE-3405-8D8146796E23">
-<sourceConnName>LOYALIST_UNIVERSITY</sourceConnName>
-<sourceObjName>SYS</sourceObjName>
-<createdBy>8055y</createdBy>
-<createdTime>2024-05-25 21:21:27 UTC</createdTime>
-<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
-<schemaObject>034EF1E5-383C-C3BF-3B41-5ACA3D62A5BF</schemaObject>
-</UserOraclev10g>

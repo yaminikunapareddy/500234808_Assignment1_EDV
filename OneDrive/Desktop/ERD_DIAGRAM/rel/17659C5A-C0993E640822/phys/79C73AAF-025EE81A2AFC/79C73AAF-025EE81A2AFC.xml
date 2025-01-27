@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="5DC5CE93-5406-E3A6-2FEA-42A9BCC5525C" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
-<createdBy>8055y</createdBy>
-<createdTime>2024-05-25 21:18:04 UTC</createdTime>
-<ownerDesignName>ERD_DIAGRAM</ownerDesignName>
-</StorageDesignOraclev12cR2>
